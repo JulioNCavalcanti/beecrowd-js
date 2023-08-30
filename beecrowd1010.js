@@ -18,13 +18,13 @@ var lines = input.split('\n');
 let informacoesDaPeca1 = lines.shift().split(" ");
 let informacoesDaPeca2 = lines.shift().split(" ")
 
-let codigoDaPeca1 = informacoesDaPeca1.shift();
-let numeroDePecas1 = informacoesDaPeca1.shift();
-let valorUtilitarioDeCadaPeca1 = informacoesDaPeca1.shift();
+let codigoDaPeca1 = parseInt(informacoesDaPeca1.shift());
+let numeroDePecas1 = parseInt(informacoesDaPeca1.shift());
+let valorUtilitarioDeCadaPeca1 = parseFloat(informacoesDaPeca1.shift());
 
-let codigoDaPeca2 = informacoesDaPeca2.shift();
-let numeroDePecas2 = informacoesDaPeca2.shift();
-let valorUtilitarioDeCadaPeca2 = informacoesDaPeca2.shift();
+let codigoDaPeca2 = parseInt(informacoesDaPeca2.shift());
+let numeroDePecas2 = parseInt(informacoesDaPeca2.shift());
+let valorUtilitarioDeCadaPeca2 = parseFloat(informacoesDaPeca2.shift());
 
 let valorAPagar = (numeroDePecas1 * valorUtilitarioDeCadaPeca1) + (numeroDePecas2 * valorUtilitarioDeCadaPeca2);
 
