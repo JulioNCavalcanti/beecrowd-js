@@ -23,7 +23,7 @@ let C = parseFloat(informacoesDaLinha1.shift());
 
 let delta = Math.pow(B, 2) - 4 * A * C;
 
-if (delta > 0 && A != 0) {
+if (delta > 0 && A !== 0) {
     let x1 = (-B + Math.sqrt(delta)) / (2 * A);
     let x2 = (-B - Math.sqrt(delta)) / (2 * A);
 
