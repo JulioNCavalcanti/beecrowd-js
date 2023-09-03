@@ -17,7 +17,7 @@ var informacoesDaLinha1 = lines.shift().split(' ');
 const valores = [];
 
 for (let i = 0; i < 3; i++) {
-    let valor = informacoesDaLinha1.shift();
+    let valor = parseInt(informacoesDaLinha1.shift());
     valores.push(valor);
 }
 
