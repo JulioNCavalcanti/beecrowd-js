@@ -10,11 +10,11 @@
     4      |  Torrada simples  | R$ 2.00
     5      |  Refrigerante     | R$ 1.50
 
-    Entrada
+    Entrada:
     O arquivo de entrada contém dois valores inteiros correspondentes ao código e à quantidade de 
     um item conforme tabela acima.
 
-    Saída
+    Saída:
     O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser pago, com 2 casas 
     após o ponto decimal.
 */
