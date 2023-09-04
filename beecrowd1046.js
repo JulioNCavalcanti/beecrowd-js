@@ -28,4 +28,4 @@ if (horaInicial > horaFinal)  {
     duracao = 24;
 }
 
-console.log('O JOGO DUROU ' + duracao + 'HORA(S)');
+console.log('O JOGO DUROU ' + duracao + ' HORA(S)');
