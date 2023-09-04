@@ -13,8 +13,6 @@
             27   |   Vitoria
             31   |   Belo Horizonte
 
-
-
     Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa 
     deverá informar:
 
